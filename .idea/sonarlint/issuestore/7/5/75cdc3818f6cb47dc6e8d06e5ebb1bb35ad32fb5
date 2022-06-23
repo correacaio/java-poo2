@@ -1,0 +1,17 @@
+
+0
+java:S1220""Move this file to a named package.
+g
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ğĞî¶
+g
+java:S1854C"ERemove this useless assignment to local variable "animalDeEstimacao".(–¿Øøùÿÿÿÿ8«€Ç˜0
+V	java:S125"<This block of commented-out lines of code should be removed.(»Ÿ•ùÿÿÿÿ
+Q	java:S125!"<This block of commented-out lines of code should be removed.(æûÀŒ
+J
+java:S1481'"/Remove this unused "novoAnimal" local variable.(®ÁĞ¡úÿÿÿÿ
+]	java:S125/"<This block of commented-out lines of code should be removed.(Ø±Î¤üÿÿÿÿ8äó·Æ˜0
+X
+java:S1481C"6Remove this unused "animalDeEstimacao" local variable.(–¿Øøùÿÿÿÿ8†«€Ç˜0
+Z	java:S106R"9Replace this use of System.out or System.err by a logger.(ı—óŞıÿÿÿÿ8éÒ¶Æ˜0
+]	java:S125E"<This block of commented-out lines of code should be removed.(ÎòßÂıÿÿÿÿ8÷¸Æ˜0
+U	java:S106S"9Replace this use of System.out or System.err by a logger.(›ûá¤8½ºÿÆ˜0
