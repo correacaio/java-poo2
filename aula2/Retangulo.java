@@ -1,6 +1,6 @@
 package aula2;
 
-public class Retangulo extends FormaGeometrica {
+public class Retangulo implements FormaGeometrica {
 
     private final int lado1;
     private final int lado2;

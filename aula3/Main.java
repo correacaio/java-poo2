@@ -3,21 +3,34 @@ package aula3;
 public class Main {
 
     public static void main(String[] arg) {
-        DiaDasMaes diaDasMaes =
-            new DiaDasMaes("filho", "mae");
+//        DiaDasMaes diaDasMaes =
+//            new DiaDasMaes("filho", "mae");
+//
+//        DiaDosNamorados diaDosNamorados =
+//            new DiaDosNamorados("namorado", "namorada");
+//
+//        Boleto boleto = new Boleto();
+//
+//        escreverCartao(diaDasMaes);
+//        escreverCartao(diaDosNamorados);
+//
+//        ImprimirPapel aux = new DiaDasMaes("filho", "mae");
+//        imprimirPapel(aux);
+//        imprimirPapel(diaDasMaes);
+//        imprimirPapel(boleto);
 
-        DiaDosNamorados diaDosNamorados =
-            new DiaDosNamorados("namorado", "namorada");
+//        System.out.println(ClasseDeTeste.ATRIBUTO_CONSTANTE);
+//        System.out.println(ClasseDeTeste.atributoEstatico);
 
-        Boleto boleto = new Boleto();
+        System.out.println(CartaoDePresente.MINHA_CONSTANTE);
+        System.out.println(DiaDasMaes.MINHA_CONSTANTE);
 
-        escreverCartao(diaDasMaes);
-        escreverCartao(diaDosNamorados);
+        System.out.println(DiaDosNamorados.MINHA_CONSTANTE);
+//        System.out.println(ImprimirPapel.MINHA_CONSTANTE);
+    }
 
-        ImprimirPapel aux = new DiaDasMaes("filho", "mae");
-        imprimirPapel(aux);
-        imprimirPapel(diaDasMaes);
-        imprimirPapel(boleto);
+    public static void escreverCartao(DiaDasMaes cartaoDePresente) {
+
     }
 
     public static void escreverCartao(CartaoDePresente cartaoDePresente) {
@@ -27,6 +40,7 @@ public class Main {
     }
 
     public static void imprimirPapel(ImprimirPapel imprimirPapel) {
+
         System.out.println(imprimirPapel.imprime());
     }
 }
