@@ -1,0 +1,26 @@
+Projeto final POO-2:
+
+Criar uma Calculadora que mantém o histórico das operações realizadas.
+Crie classes para cada operação matematica (Adição, Subtração, Multiplicação e Divisão)
+que implementam uma interface chamada de OperacaoMatematica.
+
+A OperacaoMatematica deve conter uma função calcula que recebe dois números
+e retorna o resultado.
+
+Exemplo:
+new Adicao(1, 1) // primeira adição
+new Adicao(2, 2) // segunda adição
+new Multiplicacao(2, 3) // primeira multiplicacao
+
+Para exibir as operações, pode ser uma boa sobrescrever o método toString()
+A calculadora deve conter a função de exibir o histórico.
+
+Obs não obrigatório:
+Se desejar pode criar Scanners para que o usuário informe a operação e os valores
+
+Exibir o menu:
+Digite  1 para Adicao;
+        2 para Subtracao;
+        3 para Multiplicacao;
+        4 para Divisao;
+        5 para sair;
