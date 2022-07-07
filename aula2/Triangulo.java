@@ -1,6 +1,6 @@
 package aula2;
 
-public class Triangulo extends FormaGeometrica {
+public class Triangulo implements FormaGeometrica {
 
     // final -> significa que o atributo não pod eser alterado
     private final int ladoA;

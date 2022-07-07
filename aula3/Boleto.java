@@ -6,4 +6,9 @@ public class Boleto implements ImprimirPapel {
     public String imprime() {
         return "Imprimindo o boleto";
     }
+
+    @Override
+    public String metodo() {
+        return null;
+    }
 }
